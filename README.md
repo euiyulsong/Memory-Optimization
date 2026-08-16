@@ -7,11 +7,11 @@
 | FP32 | 8.531 GB | +55.7% | 19,640 tok/s | 0.40x | 124.4M |
 | **BF16 Baseline** | 5.478 GB | Baseline | 48,940 tok/s | 1.00x | 124.4M |
 | Checkpoint | 3.496 GB | **-36.2%** | 41,562 tok/s | 0.85x | 124.4M |
+| CPU Offloading | 5.078 GB | **-7.13%** | 14,427 tok/s | 2.25x | 124.4M |\
 | Grad Accum | **2.158 GB** | **-60.6%** | 39,381 tok/s | 0.80x | 124.4M |
 | 8-bit Adam | 5.236 GB | -4.4% | 37,995 tok/s | 0.78x | 124.4M |
 | **LoRA** | 4.706 GB | -14.1% | **58,208 tok/s** | **1.19x** | 0.295M |
 | LoRA + Checkpoint | 3.028 GB | **-44.7%** | 45,869 tok/s | 0.94x | 0.295M |
-
 ## Key Findings
 
 ### FP32 vs BF16
